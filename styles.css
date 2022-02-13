@@ -5,6 +5,9 @@
   --secondary-color: #f9f7fe;
 }
 
+body {
+  font-family: var(--body-font-family);
+}
 h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
@@ -12,9 +15,17 @@ h1 {
 }
 
 h2 {
-  font-family: var(--body-font-family);
-  font-size: 24px;
-  font-weight: normal;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 64px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: regular;
+  color: rgba(39, 33, 66, 0.7);
+  padding: 20px 0;
 }
 
 .hero {
@@ -22,19 +33,45 @@ h2 {
   background-color: var(--secondary-color);
   padding: 190px 20px;
 }
-
+.hero h2 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #272142;
+}
 .hero p {
-  font-family: var(--body-font-family);
   font-size: 36px;
   font-weight: bold;
+  color: #272142;
 }
 
 .primary-button {
-  font-family: var(--body-font-family);
   font-size: 18px;
   font-weight: 500;
   color: white;
   background-color: var(--primary-color);
   padding: 18px 46px;
   border-radius: 4px;
+}
+
+.secondary-button {
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  font-size: 16px;
+  color: var(--primary-color);
+  padding: 18px 25px;
+}
+.project-description {
+  padding: 100px 30px 0 30px;
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 64px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .project-description {
+    padding: 40px 20px 0px 20px;
+  }
 }
