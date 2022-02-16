@@ -28,6 +28,23 @@ p {
   padding: 20px 0;
 }
 
+.about-section {
+  margin: 170px auto;
+}
+.about-section h1 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 85px;
+}
+
+.about-section h2 {
+  font-family: var(--body-font-family);
+  font-weight: bold;
+  font-size: 18px;
+  margin: 20px 0 0;
+}
+
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
@@ -71,6 +88,15 @@ p {
   h2 {
     font-size: 44px;
   }
+  .about-section {
+    margin: 60px auto;
+  }
+  .about-section h1 {
+    font-size: 40px;
+    line-height: 51px;
+    margin-top: 30px;
+  }
+
   .project-description {
     text-align: center;
     padding: 40px 20px 0px 20px;
