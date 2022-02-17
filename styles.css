@@ -31,13 +31,13 @@ nav img {
 
 nav li {
   display: inline;
+  padding: 0 20px;
 }
 
 nav li a {
   color: #272142;
   opacity: 0.7;
   font-size: 16x;
-  padding: 20px;
   line-height: 41px;
 }
 
@@ -52,6 +52,32 @@ p {
   line-height: 30px;
   font-weight: regular;
   color: rgba(39, 33, 66, 0.7);
+}
+
+footer .email-link {
+  font-size: 24px;
+  color: black;
+  font-weight: 400;
+}
+footer .contact-box {
+  margin: 130px 0 30px;
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+  padding: 40px 120px;
+}
+
+footer .social-media a {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  font-size: 18px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+footer .social-media a:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 .content-section {
