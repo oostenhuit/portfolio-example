@@ -20,6 +20,12 @@ h2 {
   font-size: 64px;
 }
 
+h3 {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+  font-weight: bold;
+}
+
 nav {
   padding: 40px 0 0 0;
   background-color: var(--secondary-color);
@@ -167,9 +173,16 @@ footer .social-media a:hover {
     text-align: center;
     padding: 40px 20px 0px 20px;
   }
-}
 
-nav li a {
-  padding: 8px;
-  font-size: 14px;
+  nav ul {
+    padding: 0;
+  }
+  nav li {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  footer .contact-box {
+    padding: 40px 20px;
+  }
 }
