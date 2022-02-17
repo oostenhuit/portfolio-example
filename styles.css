@@ -20,6 +20,33 @@ h2 {
   font-size: 64px;
 }
 
+nav {
+  padding: 40px 0 0 0;
+  background-color: var(--secondary-color);
+}
+
+nav img {
+  max-height: 40px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a {
+  color: #272142;
+  opacity: 0.7;
+  font-size: 16x;
+  padding: 20px;
+  line-height: 41px;
+}
+
+nav a:hover,
+a.active {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
 p {
   font-size: 16px;
   line-height: 30px;
@@ -53,7 +80,7 @@ p {
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
-  padding: 190px 20px;
+  padding: 150px 20px;
 }
 .hero h2 {
   font-size: 24px;
@@ -106,8 +133,17 @@ p {
     margin-top: 30px;
   }
 
+  .hero {
+    padding: 80px 20px;
+  }
+
   .project-description {
     text-align: center;
     padding: 40px 20px 0px 20px;
   }
+}
+
+nav li a {
+  padding: 8px;
+  font-size: 14px;
 }
